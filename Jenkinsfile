@@ -45,7 +45,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'docker compose exec -T flast-app pytest || true'
+                sh 'docker compose exec -T app pytest || true'
             }
         }
 
