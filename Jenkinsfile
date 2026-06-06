@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "youmara/smartquiz"
+        IMAGE_NAME = "youmara/flastapiwithjenkins"
         TAG = "v1"
     }
 
