@@ -49,10 +49,6 @@ pipeline {
             }
         }
 
-        stage('Logs') {
-            steps {
-                sh 'docker compose logs'
-            }
-        }
+        
     }
 }
